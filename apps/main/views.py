@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 
-class HomeView(generic.ListView):
+class HomeView(generic.TemplateView):
     
 
     template_name = 'main/index.html'
